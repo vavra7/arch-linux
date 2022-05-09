@@ -3,6 +3,7 @@
 installation and post-installation guide
 
 ## installation
+https://wiki.archlinux.org/title/installation_guide
 
 ### set keyboard layout 
 see available
@@ -48,4 +49,11 @@ exit
 verify connection
 ```
 ping google.com
+```
+
+###  official install script
+https://wiki.archlinux.org/title/Archinstall
+run
+```
+archinstall
 ```
