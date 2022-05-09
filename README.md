@@ -13,3 +13,39 @@ load layout
 ```
 loadkeys cz-qwertz
 ```
+
+### connect to wi-fi
+use iwctl utility
+```
+iwctl
+```
+
+find device name in device list
+```
+device list
+```
+
+scan for networks (command will not output anything)
+```
+station some-device-name scan
+```
+
+list of all available networks
+```
+station some-device-name get-networks
+```
+
+connect to a network
+```
+station some-device-name connect some-network-name
+```
+
+exit iwctl utility
+```
+exit
+```
+
+verify connection
+```
+ping google.com
+```
