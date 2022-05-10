@@ -91,6 +91,11 @@ check user is in wheel group
 groups
 ```
 
+### install arch packages (pacman)
+```
+sudo pacman -S keepassxc git
+```
+
 ### install yay (AUR)
 
 clone official repo
@@ -106,4 +111,9 @@ cd ./yay
 use the makepkg command to build and install yay
 ```
 makepkg -si
+```
+
+### install aur packages (yay)
+```
+yay -S brave-bin onedriver
 ```
