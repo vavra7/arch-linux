@@ -148,5 +148,9 @@ list available shells & change shell
 - check "Run a custom command instead of my shell"
 - custom command "fish"
 
+#### VS Code change default terminal
+- navigate "Terminal: Select Default Profile"
+- select "fish"
+
 
 
