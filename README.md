@@ -121,9 +121,10 @@ use the makepkg command to build and install yay
 makepkg -si
 ```
 
-### install aur packages (yay)
+### install AUR packages (yay)
+- chrome-gnome-shell - allows installing gnome extensions from chromium based browsers
 ```
-yay -S brave-bin onedriver
+yay -S brave-bin onedriver chrome-gnome-shell
 ```
 
 ### fish shell
