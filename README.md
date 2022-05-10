@@ -125,7 +125,7 @@ makepkg -si
 ```
 
 ### install AUR packages (yay)
-### nvm
+#### nvm
 ```
 # yay -S nvm
 # echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
@@ -134,7 +134,12 @@ terminal restart is needed
 #### other
 - chrome-gnome-shell - allows installing gnome extensions from chromium based browsers
 ```
-yay -S brave-bin onedriver chrome-gnome-shell visual-studio-code-bin
+yay -S brave-bin onedriver chrome-gnome-shell visual-studio-code-bin gnome-text-editor
+```
+
+### remove packages
+```
+sudo pacman -R gedit
 ```
 
 ### fish shell
