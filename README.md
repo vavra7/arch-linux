@@ -105,8 +105,9 @@ sudo pacman -S adobe-source-code-pro-fonts adobe-source-sans-fonts adobe-source-
 ```
 #### other
 - gst-libav - codec for gnome player
+- pacman-contrib - necessary for "Arch Linux Updates Indicator" extension
 ```
-sudo pacman -S keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird
+sudo pacman -S keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird pacman-contrib
 ```
 
 ### install yay
@@ -163,6 +164,13 @@ list available shells & change shell
 #### VS Code change default terminal
 - navigate "Terminal: Select Default Profile"
 - select "fish"
+
+### GNOME extensions
+- https://extensions.gnome.org/extension/1010/archlinux-updates-indicator/
+- https://extensions.gnome.org/extension/1460/vitals/
+- https://extensions.gnome.org/extension/517/caffeine/
+- https://extensions.gnome.org/extension/779/clipboard-indicator/
+- https://extensions.gnome.org/extension/3396/color-picker/
 
 
 
