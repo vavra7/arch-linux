@@ -101,7 +101,7 @@ localectl set-x11-keymap cz
 ### install arch packages (pacman)
 - gst-libav - codec for gnome player
 ```
-sudo pacman -S keepassxc git vlc libreoffice-still gst-libav neofetch
+sudo pacman -S keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird
 ```
 
 ### install yay (AUR)
