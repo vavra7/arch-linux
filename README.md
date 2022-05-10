@@ -92,8 +92,9 @@ groups
 ```
 
 ### install arch packages (pacman)
+- gst-libav - codec for gnome player
 ```
-sudo pacman -S keepassxc git vlc libreoffice-still
+sudo pacman -S keepassxc git vlc libreoffice-still gst-libav
 ```
 
 ### install yay (AUR)
