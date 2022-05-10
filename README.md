@@ -59,6 +59,7 @@ run
 archinstall
 ```
 ## post-installation
+
 ### add user to sudoers
 
 switch to root
@@ -89,6 +90,12 @@ su <user>
 check user is in wheel group
 ```
 groups
+```
+
+### change keyboard layout for GNOME Display Manager
+https://wiki.archlinux.org/title/GDM#Keyboard_layout
+```
+localectl set-x11-keymap cz
 ```
 
 ### install arch packages (pacman)
