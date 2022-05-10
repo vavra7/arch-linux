@@ -99,12 +99,17 @@ localectl set-x11-keymap cz
 ```
 
 ### install arch packages (pacman)
+#### fonts
+```
+sudo pacman -S adobe-source-code-pro-fonts adobe-source-sans-fonts adobe-source-serif-fonts cantarell-fonts freetype2 noto-fonts ttf-bitstream-vera ttf-dejavu ttf-liberation ttf-opensans
+```
+#### other
 - gst-libav - codec for gnome player
 ```
 sudo pacman -S keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird
 ```
 
-### install yay (AUR)
+### install yay
 
 clone official repo
 ```
@@ -122,14 +127,16 @@ makepkg -si
 ```
 
 ### install AUR packages (yay)
-- chrome-gnome-shell - allows installing gnome extensions from chromium based browsers
-```
-yay -S brave-bin onedriver chrome-gnome-shell visual-studio-code-bin
-```
-nvm (after terminal restart is needed)
+### nvm
 ```
 # yay -S nvm
 # echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
+```
+terminal restart is needed
+#### other
+- chrome-gnome-shell - allows installing gnome extensions from chromium based browsers
+```
+yay -S brave-bin onedriver chrome-gnome-shell visual-studio-code-bin
 ```
 
 ### fish shell
