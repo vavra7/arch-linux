@@ -124,7 +124,7 @@ makepkg -si
 ### install AUR packages (yay)
 - chrome-gnome-shell - allows installing gnome extensions from chromium based browsers
 ```
-yay -S brave-bin onedriver chrome-gnome-shell
+yay -S brave-bin onedriver chrome-gnome-shell visual-studio-code-bin
 ```
 
 ### fish shell
