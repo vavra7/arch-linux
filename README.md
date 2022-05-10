@@ -93,7 +93,7 @@ groups
 
 ### install arch packages (pacman)
 ```
-sudo pacman -S keepassxc git
+sudo pacman -S keepassxc git vlc libreoffice-still
 ```
 
 ### install yay (AUR)
