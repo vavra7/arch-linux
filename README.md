@@ -124,7 +124,12 @@ makepkg -si
 ### install AUR packages (yay)
 - chrome-gnome-shell - allows installing gnome extensions from chromium based browsers
 ```
-yay -S brave-bin onedriver chrome-gnome-shell visual-studio-code-bin nvm
+yay -S brave-bin onedriver chrome-gnome-shell visual-studio-code-bin
+```
+nvm (after terminal restart is needed)
+```
+# yay -S nvm
+# echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
 ```
 
 ### fish shell
