@@ -125,3 +125,23 @@ makepkg -si
 ```
 yay -S brave-bin onedriver
 ```
+
+### fish shell
+install
+```
+sudo pacman -S fish
+```
+change default shell
+
+https://wiki.archlinux.org/title/Command-line_shell#Changing_your_default_shell
+
+list available shells
+```
+chsh -l
+```
+
+change shell
+```
+chsh -s <full-path-to-shell>
+```
+
