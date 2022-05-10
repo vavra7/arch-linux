@@ -132,17 +132,21 @@ install
 ```
 sudo pacman -S fish
 ```
-change default shell
+#### change Arch default shell
 
 https://wiki.archlinux.org/title/Command-line_shell#Changing_your_default_shell
 
-list available shells
+list available shells & change shell
 ```
-chsh -l
+# chsh -l
+# chsh -s <full-path-to-shell>
 ```
 
-change shell
-```
-chsh -s <full-path-to-shell>
-```
+#### change GNOME Terminal default shell
+- launch Terminal app 
+- navigate "Preferences -> 'profile' -> Command"
+- check "Run a custom command instead of my shell"
+- custom command "fish"
+
+
 
