@@ -28,17 +28,17 @@ device list
 
 scan for networks (command will not output anything)
 ```
-station some-device-name scan
+station <device> scan
 ```
 
 list of all available networks
 ```
-station some-device-name get-networks
+station <device> get-networks
 ```
 
 connect to a network
 ```
-station some-device-name connect some-network-name
+station <device> connect <network>
 ```
 
 exit iwctl utility
@@ -53,7 +53,57 @@ ping google.com
 
 ###  official install script
 https://wiki.archlinux.org/title/Archinstall
+
 run
 ```
 archinstall
+```
+## post-installation
+### add user to sudoers
+
+switch to root
+```
+su root
+```
+
+add user to wheel group
+```
+usermod -G wheel <user>
+```
+
+set default editor to vim
+```
+export EDITOR="vim"
+```
+
+uncomment wheel group in sudoers file
+```
+visudo
+```
+
+back to your user
+```
+su <user>
+```
+
+check user is in wheel group
+```
+groups
+```
+
+### install yay (AUR)
+
+clone official repo
+```
+git clone https://aur.archlinux.org/yay.git
+```
+
+enter yay directory
+```
+cd ./yay
+```
+
+use the makepkg command to build and install yay
+```
+makepkg -si
 ```
