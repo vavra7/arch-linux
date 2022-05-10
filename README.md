@@ -1,4 +1,4 @@
-# arch-linux
+# Arch Linux Up and Running
 
 installation and post-installation guide
 
@@ -6,13 +6,10 @@ installation and post-installation guide
 https://wiki.archlinux.org/title/installation_guide
 
 ### set keyboard layout 
-see available
+
 ```
-ls /usr/share/kbd/keymaps/**/cz*.map.gz
-```
-load layout
-```
-loadkeys cz-qwertz
+# ls /usr/share/kbd/keymaps/**/cz*.map.gz
+# loadkeys cz-qwertz
 ```
 
 ### connect to wi-fi
@@ -107,7 +104,7 @@ sudo pacman -S adobe-source-code-pro-fonts adobe-source-sans-fonts adobe-source-
 - gst-libav - codec for gnome player
 - pacman-contrib - necessary for "Arch Linux Updates Indicator" extension
 ```
-sudo pacman -S keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird pacman-contrib
+sudo pacman -S keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird pacman-contrib kdenlive
 ```
 
 ### install yay
