@@ -38,6 +38,20 @@ https://wiki.archlinux.org/title/GDM#Keyboard_layout
 localectl set-x11-keymap cz
 ```
 
+## allow locales
+uncomment locale in file
+```
+sudo vim /etc/locale.gen
+```
+generate locale
+```
+sudo locale-gen
+```
+verify 
+```
+locale -l
+```
+
 ## add my SSH
 https://wiki.archlinux.org/title/SSH_keys
 
