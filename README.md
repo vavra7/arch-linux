@@ -102,7 +102,7 @@ copy ".ssh" folder in "/home/\<user\>"
 
 change permission of the folder
 ```
-sudo chmod 400 -R ./.ssh/
+sudo chmod 700 -R ./.ssh/
 ```
 add ssh key
 ```
