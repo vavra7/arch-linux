@@ -95,6 +95,20 @@ https://wiki.archlinux.org/title/GDM#Keyboard_layout
 localectl set-x11-keymap cz
 ```
 
+### add my SSH
+https://wiki.archlinux.org/title/SSH_keys
+
+copy ".ssh" folder in "/home/\<user\>"
+
+change permission of the folder
+```
+sudo chmod 400 -R ./.ssh/
+```
+add ssh key
+```
+ssh-add
+```
+
 ### install arch packages (pacman)
 #### fonts
 ```
