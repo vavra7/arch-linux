@@ -75,7 +75,7 @@ sudo pacman -S adobe-source-code-pro-fonts adobe-source-sans-fonts adobe-source-
 - gst-libav - codec for gnome player
 - pacman-contrib - necessary for "Arch Linux Updates Indicator" extension
 ```
-sudo pacman -S keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird pacman-contrib kdenlive
+sudo pacman -S keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird pacman-contrib kdenlive fish
 ```
 
 ## install yay
@@ -105,11 +105,7 @@ yay -S brave-bin onedriver chrome-gnome-shell visual-studio-code-bin gnome-text-
 sudo pacman -R gedit
 ```
 
-## fish shell
-install
-```
-sudo pacman -S fish
-```
+## set default fish shell
 ### change Arch default shell
 
 https://wiki.archlinux.org/title/Command-line_shell#Changing_your_default_shell
