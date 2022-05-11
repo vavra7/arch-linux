@@ -2,44 +2,38 @@
 https://wiki.archlinux.org/title/installation_guide
 
 ## set keyboard layout 
-
+1) run
 ```
 # ls /usr/share/kbd/keymaps/**/cz*.map.gz
 # loadkeys cz-qwertz
 ```
 
 ## connect to wi-fi
-use iwctl utility
+1) use iwctl utility
 ```
 iwctl
 ```
-
-find device name in device list
+2) find device name in device list
 ```
 device list
 ```
-
-scan for networks (command will not output anything)
+3) scan for networks (command will not output anything)
 ```
 station <device> scan
 ```
-
-list of all available networks
+4) list of all available networks
 ```
 station <device> get-networks
 ```
-
-connect to a network
+5) connect to a network
 ```
 station <device> connect <network>
 ```
-
-exit iwctl utility
+6) exit iwctl utility
 ```
 exit
 ```
-
-verify connection
+7) verify connection
 ```
 ping google.com
 ```
@@ -48,7 +42,7 @@ ping google.com
 
 https://wiki.archlinux.org/title/Archinstall
 
-run
+1) run
 ```
 archinstall
 ```
