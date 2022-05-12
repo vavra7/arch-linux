@@ -70,8 +70,9 @@ sudo pacman -S adobe-source-code-pro-fonts adobe-source-sans-fonts adobe-source-
 ### other
 - `gst-libav` - codec for gnome player
 - `pacman-contrib` - necessary for "Arch Linux Updates Indicator" extension
+- `cups`, `system-config-printer`, `ghostscript`, `gsfonts` - printing
 ```
-sudo pacman -S keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird pacman-contrib kdenlive fish gnome-bluetooth
+sudo pacman -S keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird pacman-contrib kdenlive fish gnome-bluetooth cups system-config-printer ghostscript gsfonts
 ```
 
 ## bluetooth
@@ -84,6 +85,20 @@ precondition: installed `gnome-bluetooth` (pacman)
 # sudo systemctl status bluetooth
 ```
 2) set `AutoEnable=true` in `/etc/bluetooth/main.conf`
+
+## printer
+https://wiki.archlinux.org/title/CUPS
+
+https://wiki.archlinux.org/title/CUPS/Troubleshooting#Unable_to_add_printer_or_message_%22print_in_progress%22_but_nothing_happens
+
+precondition: installed `cups`, `system-config-printer`, `ghostscript`, `gsfonts`  (pacman)
+
+1) enable service
+```
+# sudo systemctl enable cups.service
+# sudo systemctl start cups.service
+# sudo systemctl status cups.service
+```
 
 
 ## install yay
