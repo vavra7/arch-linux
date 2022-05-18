@@ -119,8 +119,9 @@ precondition: installed `cups`, `system-config-printer`, `ghostscript`, `gsfonts
 2) restart terminal
 ### other
 - `chrome-gnome-shell` - allows installing gnome extensions from chromium based browsers
+- `fish-nvm` - allows node, npm and other node_modules to be available in fish
 ```
-yay -S brave-bin onedriver chrome-gnome-shell visual-studio-code-bin gnome-text-editor
+yay -S brave-bin onedriver chrome-gnome-shell visual-studio-code-bin gnome-text-editor fish-nvm
 ```
 
 ## remove packages
