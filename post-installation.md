@@ -72,7 +72,7 @@ sudo pacman -S adobe-source-code-pro-fonts adobe-source-sans-fonts adobe-source-
 - `pacman-contrib` - necessary for "Arch Linux Updates Indicator" extension
 - `cups`, `system-config-printer`, `ghostscript`, `gsfonts` - printing
 ```
-sudo pacman -S keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird pacman-contrib kdenlive fish gnome-bluetooth cups system-config-printer ghostscript gsfonts
+sudo pacman -S keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird pacman-contrib kdenlive fish gnome-bluetooth cups system-config-printer ghostscript gsfonts transmission-gtk
 ```
 
 ## bluetooth
