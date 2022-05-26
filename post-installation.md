@@ -32,11 +32,22 @@ su <user>
 groups
 ```
 
-## change keyboard layout for GNOME Display Manager
-https://wiki.archlinux.org/title/GDM#Keyboard_layout
+## change keyboard layout
+### ~~for GNOME Display Manager~~
+~~https://wiki.archlinux.org/title/GDM#Keyboard_layout~~
 ```
 localectl set-x11-keymap cz
 ```
+
+### in GNOME
+https://github.com/michalkahle/czech-coder-xkb
+
+1) allow selecting all layouts
+```
+gsettings set org.gnome.desktop.input-sources show-all-sources true
+```
+2) select in GNOME Czech coder layout
+
 
 ## allow locales
 1) uncomment locale in file `/etc/locale.gen`
