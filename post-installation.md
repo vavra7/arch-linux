@@ -131,15 +131,15 @@ precondition: installed `cups`, `system-config-printer`, `ghostscript`, `gsfonts
 ### other
 - `chrome-gnome-shell` - allows installing gnome extensions from chromium based browsers
 - `fish-nvm` - allows node, npm and other node_modules to be available in fish
-- `evdi-git`, `displaylink` - dependency for connecting monitors via docking station
+- `evdi`, `displaylink` - dependency for connecting monitors via docking station
 ```
-yay -S brave-bin onedriver chrome-gnome-shell visual-studio-code-bin gnome-text-editor fish-nvm  evdi-git displaylink
+yay -S brave-bin onedriver chrome-gnome-shell visual-studio-code-bin gnome-text-editor fish-nvm  evdi displaylink
 ```
 
 ## docking station
 https://wiki.archlinux.org/title/DisplayLink
 
-precondition: installed `evdi-git`, `displaylink` (AUR)
+precondition: installed `evdi`, `displaylink` (AUR)
 
 ## remove packages
 ```
