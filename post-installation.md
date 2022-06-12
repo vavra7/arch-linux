@@ -130,10 +130,9 @@ precondition: installed `cups`, `system-config-printer`, `ghostscript`, `gsfonts
 2) restart terminal
 ### other
 - `chrome-gnome-shell` - allows installing gnome extensions from chromium based browsers
-- `fish-nvm` - allows node, npm and other node_modules to be available in fish
 - `evdi`, `displaylink` - dependency for connecting monitors via docking station
 ```
-yay -S brave-bin onedriver chrome-gnome-shell visual-studio-code-bin gnome-text-editor fish-nvm  evdi displaylink
+yay -S brave-bin onedriver chrome-gnome-shell visual-studio-code-bin gnome-text-editor evdi displaylink
 ```
 
 ## docking station
