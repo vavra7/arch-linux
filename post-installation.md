@@ -122,12 +122,17 @@ precondition: installed `cups`, `system-config-printer`, `ghostscript`, `gsfonts
 
 ## install AUR packages (yay)
 ### nvm
+#### for bash
 1) install
 ```
 # yay -S nvm
 # echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
 ```
 2) restart terminal
+#### for fish
+1) install oh-my-fish - https://github.com/oh-my-fish/oh-my-fish
+2) install fish-nvm - https://github.com/oh-my-fish/oh-my-fish
+
 ### other
 - `chrome-gnome-shell` - allows installing gnome extensions from chromium based browsers
 - `evdi`, `displaylink` - dependency for connecting monitors via docking station
