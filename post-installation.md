@@ -172,3 +172,4 @@ https://wiki.archlinux.org/title/Command-line_shell#Changing_your_default_shell
 - https://extensions.gnome.org/extension/517/caffeine/
 - https://extensions.gnome.org/extension/779/clipboard-indicator/
 - https://extensions.gnome.org/extension/3396/color-picker/
+- https://extensions.gnome.org/extension/3780/ddterm/
