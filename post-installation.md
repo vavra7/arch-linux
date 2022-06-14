@@ -82,8 +82,9 @@ sudo pacman -S adobe-source-code-pro-fonts adobe-source-sans-fonts adobe-source-
 - `gst-libav` - codec for gnome player
 - `pacman-contrib` - necessary for "Arch Linux Updates Indicator" extension
 - `cups`, `system-config-printer`, `ghostscript`, `gsfonts` - printing
+- `ntfs-3g` - allows to read Microsoft ntfs file system
 ```
-sudo pacman -S keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird pacman-contrib kdenlive fish gnome-bluetooth cups system-config-printer ghostscript gsfonts transmission-gtk vi gimp drawing
+sudo pacman -S keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird pacman-contrib kdenlive fish gnome-bluetooth cups system-config-printer ghostscript gsfonts transmission-gtk vi gimp drawing ntfs-3g
 ```
 
 ## bluetooth
