@@ -134,6 +134,21 @@ sudo pacman -R gedit gnome-boxes gnome-books gnome-photos gnome-user-docs yelp
 
 ## SET DEFAULT FISH SHELL
 precondition: installed `fish` (pacman)
+
+### customize
+1) install oh-my-fish - https://github.com/oh-my-fish/oh-my-fish
+2) configure `fish_config`
+
+### disable time stamp
+https://askubuntu.com/questions/1010641/how-to-remove-the-time-stamp-on-the-right-side-of-the-fish-shell
+1) `fish_config`
+2) add at the end of `~/.config/fish/config.fish`
+```
+function fish_right_prompt
+  #intentionally left blank
+end
+```
+
 ### change Arch default shell
 https://wiki.archlinux.org/title/Command-line_shell#Changing_your_default_shell
 1) list available shells & change shell
@@ -152,15 +167,16 @@ https://wiki.archlinux.org/title/Command-line_shell#Changing_your_default_shell
 1) navigate "Terminal: Select Default Profile"
 2) select "fish"
 
-### NVM
-#### for bash
+
+## NVM
+### for bash
 1) install
 ```
 # yay -S nvm
 # echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
 ```
 2) restart terminal
-#### for fish
+### for fish
 1) install oh-my-fish - https://github.com/oh-my-fish/oh-my-fish
 2) install fish-nvm - https://github.com/FabioAntunes/fish-nvm
 3) return back prompt - `fish_config`
