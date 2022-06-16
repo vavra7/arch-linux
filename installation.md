@@ -1,14 +1,14 @@
 # INSTALLATION
 https://wiki.archlinux.org/title/installation_guide
 
-## set keyboard layout 
+## SET KEYBOARD LAYOUT
 1) run
 ```
 # ls /usr/share/kbd/keymaps/**/cz*.map.gz
 # loadkeys cz-qwertz
 ```
 
-## connect to wi-fi
+## CONNECT TO WI-FI
 1) use iwctl utility
 ```
 iwctl
@@ -38,7 +38,7 @@ exit
 ping google.com
 ```
 
-##  launch install script
+##  LAUNCH INSTALL SCRIPT
 
 https://wiki.archlinux.org/title/Archinstall
 

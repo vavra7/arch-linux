@@ -162,7 +162,8 @@ https://wiki.archlinux.org/title/Command-line_shell#Changing_your_default_shell
 2) restart terminal
 #### for fish
 1) install oh-my-fish - https://github.com/oh-my-fish/oh-my-fish
-2) install fish-nvm - https://github.com/oh-my-fish/oh-my-fish
+2) install fish-nvm - https://github.com/FabioAntunes/fish-nvm
+3) return back prompt - `fish_config`
 
 ## ADD GNOME EXTENSIONS
 - https://extensions.gnome.org/extension/1010/archlinux-updates-indicator/
