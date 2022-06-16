@@ -137,8 +137,9 @@ precondition: installed `cups`, `system-config-printer`, `ghostscript`, `gsfonts
 ### other
 - `chrome-gnome-shell` - allows installing gnome extensions from chromium based browsers
 - `evdi`, `displaylink` - dependency for connecting monitors via docking station
+- `imagewriter` - writes .iso files on usb drive
 ```
-yay -S brave-bin onedriver chrome-gnome-shell visual-studio-code-bin gnome-text-editor evdi displaylink
+yay -S brave-bin onedriver chrome-gnome-shell visual-studio-code-bin gnome-text-editor evdi displaylink imagewriter
 ```
 
 ## docking station
