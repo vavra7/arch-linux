@@ -1,4 +1,4 @@
-# installation
+# INSTALLATION
 https://wiki.archlinux.org/title/installation_guide
 
 ## set keyboard layout 
