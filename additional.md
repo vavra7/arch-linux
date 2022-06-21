@@ -3,7 +3,7 @@
 https://wiki.archlinux.org/title/VirtualBox
 1) install
 ```
-sudo pacman -S virtualbox
+sudo pacman -S virtualbox virtualbox-guest-utils
 ```
 2) choose `virtualbox-host-modules-arch` option
 3) launch and disable *preferences -> Input -> Auto Capture Keyboard* (Causes freezing on Wayland)

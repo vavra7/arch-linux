@@ -58,8 +58,9 @@ sudo pacman -S adobe-source-code-pro-fonts adobe-source-sans-fonts adobe-source-
 - `pacman-contrib` - necessary for "Arch Linux Updates Indicator" extension
 - `cups`, `system-config-printer`, `ghostscript`, `gsfonts` - printing
 - `ntfs-3g` - allows to read Microsoft ntfs file system
+- `sane-airscan`, `simple-scan` - scanner
 ```
-sudo pacman -S keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird pacman-contrib kdenlive fish gnome-bluetooth cups system-config-printer ghostscript gsfonts transmission-gtk vi gimp drawing ntfs-3g
+sudo pacman -S keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird pacman-contrib kdenlive fish gnome-bluetooth cups system-config-printer ghostscript gsfonts transmission-gtk vi gimp drawing ntfs-3g sane-airscan simple-scan
 ```
 
 ## INSTALL YAY
@@ -126,6 +127,11 @@ precondition: installed `cups`, `system-config-printer`, `ghostscript`, `gsfonts
 # sudo systemctl start cups.service
 # sudo systemctl status cups.service
 ```
+
+## SCANNER
+https://wiki.archlinux.org/title/SANE
+
+precondition: installed `sane-airscan`, `simple-scan`
 
 ## REMOVE PACKAGES
 ```
