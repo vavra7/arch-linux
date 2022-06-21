@@ -60,15 +60,15 @@ sudo pacman -S adobe-source-code-pro-fonts adobe-source-sans-fonts adobe-source-
 - `ntfs-3g` - allows to read Microsoft ntfs file system
 - `sane-airscan`, `simple-scan` - scanner
 ```
-sudo pacman -S keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird pacman-contrib kdenlive fish gnome-bluetooth cups system-config-printer ghostscript gsfonts transmission-gtk vi gimp drawing ntfs-3g sane-airscan simple-scan
+sudo pacman -S keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird pacman-contrib kdenlive fish gnome-bluetooth cups system-config-printer ghostscript gsfonts transmission-gtk vi gimp drawing ntfs-3g sane-airscan simple-scan docker docker-compose
 ```
 
 ## INSTALL YAY
 1) from official repo build and install
 ```
-# git clone https://aur.archlinux.org/yay.git
-# cd ./yay
-# makepkg -si
+$ git clone https://aur.archlinux.org/yay.git
+$ cd ./yay
+$ makepkg -si
 ```
 
 ## INSTALL AUR PACKAGES (YAY)
@@ -108,9 +108,9 @@ precondition: installed `gnome-bluetooth` (pacman)
 
 1) enable service
 ```
-# sudo systemctl enable bluetooth
-# sudo systemctl start bluetooth
-# sudo systemctl status bluetooth
+$ sudo systemctl enable bluetooth
+$ sudo systemctl start bluetooth
+$ sudo systemctl status bluetooth
 ```
 2) set `AutoEnable=true` in `/etc/bluetooth/main.conf`
 
@@ -123,9 +123,9 @@ precondition: installed `cups`, `system-config-printer`, `ghostscript`, `gsfonts
 
 1) enable service
 ```
-# sudo systemctl enable cups.service
-# sudo systemctl start cups.service
-# sudo systemctl status cups.service
+$ sudo systemctl enable cups.service
+$ sudo systemctl start cups.service
+$ sudo systemctl status cups.service
 ```
 
 ## SCANNER
@@ -159,8 +159,8 @@ end
 https://wiki.archlinux.org/title/Command-line_shell#Changing_your_default_shell
 1) list available shells & change shell
 ```
-# chsh -l
-# chsh -s <full-path-to-shell>
+$ chsh -l
+$ chsh -s <full-path-to-shell>
 ```
 
 ### change GNOME Terminal default shell
@@ -178,14 +178,43 @@ https://wiki.archlinux.org/title/Command-line_shell#Changing_your_default_shell
 ### for bash
 1) install
 ```
-# yay -S nvm
-# echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
+$ yay -S nvm
+$ echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
 ```
 2) restart terminal
 ### for fish
 1) install oh-my-fish - https://github.com/oh-my-fish/oh-my-fish
 2) install fish-nvm - https://github.com/FabioAntunes/fish-nvm
 3) return back prompt - `fish_config`
+
+## DOCKER
+https://docs.docker.com/engine/install/linux-postinstall/
+
+precondition: installed (pacman) `docker`, `docker-compose`
+
+### start docker
+```
+$ sudo systemctl enable docker
+$ sudo systemctl start docker
+$ sudo systemctl status docker
+```
+### get rid of sudo
+1) create the docker group
+```
+sudo groupadd docker
+```
+2) add your user to the docker group
+```
+sudo usermod -aG docker $USER
+```
+3) logout and login or ib Linux you can also run the following command to activate the changes to groups
+```
+newgrp docker 
+```
+4) verify that you can run docker commands without sudo
+```
+docker run hello-world
+```
 
 ## ADD GNOME EXTENSIONS
 - https://extensions.gnome.org/extension/1010/archlinux-updates-indicator/

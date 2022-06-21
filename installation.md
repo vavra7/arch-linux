@@ -4,8 +4,8 @@ https://wiki.archlinux.org/title/installation_guide
 ## SET KEYBOARD LAYOUT
 1) run
 ```
-# ls /usr/share/kbd/keymaps/**/cz*.map.gz
-# loadkeys cz-qwertz
+$ ls /usr/share/kbd/keymaps/**/cz*.map.gz
+$ loadkeys cz-qwertz
 ```
 
 ## CONNECT TO WI-FI
