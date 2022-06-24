@@ -60,7 +60,7 @@ sudo pacman -S adobe-source-code-pro-fonts adobe-source-sans-fonts adobe-source-
 - `ntfs-3g` - allows to read Microsoft ntfs file system
 - `sane-airscan`, `simple-scan` - scanner
 ```
-sudo pacman -S keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird pacman-contrib kdenlive fish gnome-bluetooth cups system-config-printer ghostscript gsfonts transmission-gtk vi gimp drawing ntfs-3g sane-airscan simple-scan docker docker-compose
+sudo pacman -S keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird pacman-contrib kdenlive fish gnome-bluetooth cups system-config-printer ghostscript gsfonts transmission-gtk vi gimp drawing ntfs-3g sane-airscan simple-scan docker docker-compose dbeaver 
 ```
 
 ## INSTALL YAY
@@ -76,7 +76,7 @@ $ makepkg -si
 - `evdi-git`, `displaylink` - dependency for connecting monitors via docking station (https://wiki.archlinux.org/title/DisplayLink)
 - `imagewriter` - writes .iso files on usb drive
 ```
-yay -S brave-bin onedriver chrome-gnome-shell visual-studio-code-bin gnome-text-editor evdi-git displaylink imagewriter
+yay -S brave-bin onedriver chrome-gnome-shell visual-studio-code-bin gnome-text-editor evdi-git displaylink imagewriter insomnia-bin
 ```
 
 ## ALLOW LOCALES
