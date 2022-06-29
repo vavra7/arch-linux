@@ -51,7 +51,7 @@ gsettings set org.gnome.desktop.input-sources show-all-sources true
 ## INSTALL ARCH PACKAGES (PACMAN)
 ### fonts
 ```
-sudo pacman -S adobe-source-code-pro-fonts adobe-source-sans-fonts adobe-source-serif-fonts cantarell-fonts freetype2 noto-fonts ttf-bitstream-vera ttf-dejavu ttf-liberation ttf-opensans
+sudo pacman -S adobe-source-code-pro-fonts adobe-source-sans-fonts adobe-source-serif-fonts cantarell-fonts freetype2 noto-fonts ttf-bitstream-vera ttf-dejavu ttf-liberation ttf-opensans adobe-source-han-sans-cn-fonts adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts
 ```
 ### other
 - `gst-libav` - codec for gnome player
