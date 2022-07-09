@@ -186,7 +186,6 @@ $ echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
 ### for fish
 1) install oh-my-fish - https://github.com/oh-my-fish/oh-my-fish
 2) install fish-nvm - https://github.com/FabioAntunes/fish-nvm
-3) return back prompt - `fish_config`
 
 ## DOCKER
 https://docs.docker.com/engine/install/linux-postinstall/
@@ -218,6 +217,8 @@ docker run hello-world
 ```
 
 ## ADD GNOME EXTENSIONS
+precondition: extension 'User Themes' is active
+
 - https://extensions.gnome.org/extension/1010/archlinux-updates-indicator/
 - https://extensions.gnome.org/extension/1460/vitals/
 - https://extensions.gnome.org/extension/517/caffeine/
