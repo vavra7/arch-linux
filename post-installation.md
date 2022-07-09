@@ -54,13 +54,14 @@ gsettings set org.gnome.desktop.input-sources show-all-sources true
 sudo pacman -S adobe-source-code-pro-fonts adobe-source-sans-fonts adobe-source-serif-fonts cantarell-fonts freetype2 noto-fonts ttf-bitstream-vera ttf-dejavu ttf-liberation ttf-opensans adobe-source-han-sans-cn-fonts adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts
 ```
 ### other
+- `sof-firmware` - sound open firmware for recognizing audio hardware
 - `gst-libav` - codec for gnome player
 - `pacman-contrib` - necessary for "Arch Linux Updates Indicator" extension
 - `cups`, `system-config-printer`, `ghostscript`, `gsfonts` - printing
 - `ntfs-3g` - allows to read Microsoft ntfs file system
 - `sane-airscan`, `simple-scan` - scanner
 ```
-sudo pacman -S keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird pacman-contrib kdenlive fish gnome-bluetooth cups system-config-printer ghostscript gsfonts transmission-gtk vi gimp drawing ntfs-3g sane-airscan simple-scan docker docker-compose dbeaver 
+sudo pacman -S sof-firmware keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird pacman-contrib kdenlive fish gnome-bluetooth cups system-config-printer ghostscript gsfonts transmission-gtk vi gimp drawing ntfs-3g sane-airscan simple-scan docker docker-compose dbeaver 
 ```
 
 ## INSTALL YAY
