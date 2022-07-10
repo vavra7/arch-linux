@@ -60,8 +60,9 @@ sudo pacman -S adobe-source-code-pro-fonts adobe-source-sans-fonts adobe-source-
 - `cups`, `system-config-printer`, `ghostscript`, `gsfonts` - printing
 - `ntfs-3g` - allows to read Microsoft ntfs file system
 - `sane-airscan`, `simple-scan` - scanner
+- `fprintd` - finger print reader support
 ```
-sudo pacman -S sof-firmware keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird pacman-contrib kdenlive fish gnome-bluetooth cups system-config-printer ghostscript gsfonts transmission-gtk vi gimp drawing ntfs-3g sane-airscan simple-scan docker docker-compose dbeaver 
+sudo pacman -S sof-firmware keepassxc git vlc libreoffice-still gst-libav neofetch thunderbird pacman-contrib kdenlive fish gnome-bluetooth cups system-config-printer ghostscript gsfonts transmission-gtk vi gimp drawing ntfs-3g sane-airscan simple-scan docker docker-compose dbeaver fprintd
 ```
 
 ## INSTALL YAY
@@ -225,3 +226,7 @@ precondition: extension 'User Themes' is active
 - https://extensions.gnome.org/extension/779/clipboard-indicator/
 - https://extensions.gnome.org/extension/3396/color-picker/
 - https://extensions.gnome.org/extension/3780/ddterm/
+
+
+
+gnome-keyring
