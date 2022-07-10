@@ -1,11 +1,14 @@
 # ADDITIONAL
 ## VIRTUALBOX
 https://wiki.archlinux.org/title/VirtualBox
-1) install
+1) install and choose option `virtualbox-host-modules-arch`
 ```
 sudo pacman -S virtualbox virtualbox-guest-utils
 ```
-2) choose `virtualbox-host-modules-arch` option
+2) install extension (for camera support)
+```
+yay -S virtualbox-ext-oracle
+```
 3) launch and disable *preferences -> Input -> Auto Capture Keyboard* (Causes freezing on Wayland)
 4) reboot host before running virtual machine
 
